@@ -8,7 +8,15 @@
 		{% if site.twitter_username %}
 		<a href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter"></i></a>
 		{% endif %}
-		<a aria-label="My Google Plus" target="_blank" href="#"><i class="icon fa fa-google-plus" aria-hidden="true"></i></a>
-		<a aria-label="My Github" target="_blank" href="#"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a>
+		{% if site.google_plus_username %}
+    <a href="https://plus.google.com/{{ site.google_plus_username }}">
+      <i class="fa fa-google-plus"></i> Google+
+    </a>
+{% endif %}
+		{% if site.github_username %}
+			<a href="https://github.com/{{ site.github_username }}">
+      <i class="fa fa-github"></i> GitHub
+    </a>
+		{% endif %}
 	</div>
 </header>
