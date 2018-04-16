@@ -8,12 +8,12 @@ url: "https://totovr.github.io" # for test: remove string 'http://victorvoid.git
 username: Antonio Vega
 user_title: Lorem Ipsum - FrontEnd
 email: a.vegaramirez76@gmail.com
-twitter_username: loremipsum
-github_username:  loremipsum
-gplus_username:  loremipsum
-linkedin_public_url: loremipsum # Example: For public profile 'www.linkedin.com/in/john-smith', 'john-smith' is your linkedin_public_url
-disqus_username: loremipsum
-profile_picture: https://github.com/totovr/totovr.github.io/blob/master/assets/img/user.png
+twitter_username: SpainDice
+github_username:  totovr
+gplus_username:  +AntonioVegaAVR
+linkedin_public_url: https://www.linkedin.com/in/totovr/ # Example: For public profile 'www.linkedin.com/in/john-smith', 'john-smith' is your linkedin_public_url
+# disqus_username: loremipsum
+profile_picture: assets/img/user.png
 
 # Build settings
 markdown: kramdown
