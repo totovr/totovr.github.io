@@ -1,70 +1,38 @@
 # Site settings
-title: Personal Web Site
-description: "A blog about lorem ipsum ..."
-baseurl: /totovr.github.io/ # for test: remove string '/space-jekyll-template' to ''
-url: "https://totovr.github.io" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
-
-# User settings
-username: Antonio Vega
-user_title: Lorem Ipsum - FrontEnd
-email: a.vegaramirez76@gmail.com
-twitter_username: SpainDice
-github_username:  totovr
-gplus_username:  +AntonioVegaAVR
-linkedin_public_url: https://www.linkedin.com/in/totovr/ # Example: For public profile 'www.linkedin.com/in/john-smith', 'john-smith' is your linkedin_public_url
-# disqus_username: loremipsum
-profile_picture: assets/img/user.png
+title: Personal blog
+description: "In fact I like to write."
+url: totovr.github.io
+author:
+  name: "Antonio Vega"
+  email: "a.vegaramirez76@gmail.com"
+  url: "https://github.com/totovr/totovr.github.io"
 
 # Build settings
+baseurl: /totovr.github.io # Change this to your relative path (ex: /blog/), or leave just a /
 markdown: kramdown
-highlighter: rouge
-permalink: /:title/
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 8
+paginate_path: /page:num/
 
-# html minify
-compress_html:
-  clippings: all
-  comments: all
-  endings: []
-  profile: false
+# Default values
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
 
-# Links to include in menu navigation
-links:
-  section_1:
-    - title: home
-      url: /
-      key_trigger: 1
-    - title: my posts
-      url: /posts
-      key_trigger: 2
-    - title: series
-      url: /series
-      key_trigger: 3
-    - title: tags
-      url: /tags
-      key_trigger: 4
-    - title: about me
-      url: /about
-      key_trigger: 5
-  section_2:
-    - title: github
-      url: http://www.github.com/victorvoid
-      new_tab: true
-      key_trigger: g
-    - title: twitter
-      url: http://www.twitter.com/victorvoid
-      key_trigger: t
-    - title: search
-      url: ""
-      key_trigger: s #WARNING: search only works with "s"
+# Plugins
+gems:
+  - jekyll-paginate
 
-# projects in header index
-projects:
-  - name: fluany
-    url: https://github.com/fluany/fluany
-  - name: vim-frontend
-    url: https://github.com/victorvoid/vim-frontend
-  - name: generator-capybara
-    url: https://github.com/victorvoid/generator-capybara
+# Custom variables
+version: "1.1.0"
 
-# exclude my node related stuff
-exclude: ['package.json', 'src', 'node_modules']
+# Options
+custom_header: false
+custom_nav_footer: false
+reverse: false
