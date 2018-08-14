@@ -1,44 +1,38 @@
 # Site settings
-title: Personal blog
-description: "In fact I like to write."
-url: totovr.github.io
-author:
-  name: "Antonio Vega"
-  email: "a.vegaramirez76@gmail.com"
-  url: "https://github.com/totovr/totovr.github.io"
+title: "Carte Noire"
+email: jacob@jacobtomlinson.co.uk
+description: "A dark blog theme for Jekyll."
+baseurl: ""
+url: "http://carte-noire.jacobtomlinson.co.uk/"
+title_description: "A dark blog theme for Jekyll focusing on a clear reading experience. Large text and a narrow body makes carte noire a gorgeous read. With excellent code snippet support and integrated tools such as AddThis and Disqus giving your Jekyll blog all the functionality your users expect."
+title_image: "https://www.gravatar.com/avatar/00000000000000000000000000000000?s=500&d=mm"
+google_analytics: "UA-20365477-4"
+disqus_account: cartenoire
+github_repository: https://github.com/jacobtomlinson/carte-noire
+addthis_id: ra-513c6fa83da6ec67
+post_limit: 5
+
+# Social usernames/URLs
+twitter_username: _jacobtomlinson
+github_username:  jacobtomlinson
+instagram_username: 
+reddit_username: 
+linkedin_link: http://carte-noire.jacobtomlinson.co.uk/
+google_plus_link: http://carte-noire.jacobtomlinson.co.uk/
+stackoverflow_link: http://carte-noire.jacobtomlinson.co.uk/
+xing_link:
+facebook_link:
+
+# Footer
+footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
+footer_right: "&lt;/&gt; on <a href=\"https://github.com/jacobtomlinson/carte-noire\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
 
 # Build settings
-baseurl: /totovr.github.io # Change this to your relative path (ex: /blog/), or leave just a /
 markdown: kramdown
-source: .
-destination: ./_site
-permalink: /:title
-paginate: 8
-paginate_path: /page:num/
 
-# Default values
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
-# Plugins
-gems:
-  - jekyll-paginate
-
-# Custom variables
-version: "1.0"
-
-# Options
-custom_header: false
-custom_nav_footer: false
-reverse: false
-
-#Media
-email: a.vegaramirez76@gmail.com
-twitter_username: SpainDice
-github_username:  totovr
-google_plus_username: +AntonioVegaAVR
+permalink: pretty
+exclude: [vendor]
