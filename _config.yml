@@ -9,7 +9,7 @@ Originally from Guanajuato, Antonio received a BA in Telecommunications and Elec
 engineering from Guanajuato University. I'm working under the supervision of
 Professor [Yuichi Kurita](http://www.bsys.hiroshima-u.ac.jp/~kurita/cal.html) in the
 developing of new soft exoskeletons and human augmentation technology."
-title_image: "https://github.com/totovr/totovr.github.io/blob/master/_assets/avatar.JPG"
+title_image: "https://en.gravatar.com/userimage/114675480/22fe057a8d2377b59dfae13e7f23ff05.jpg"
 google_analytics: "UA-20365477-4"
 disqus_account: cartenoire
 github_repository: https://github.com/totovr/totovr.github.io
@@ -19,15 +19,14 @@ post_limit: 5
 # Social usernames/URLs
 twitter_username: SpainDice
 github_username:  totovr
-instagram_username: a.vegaramirez76
+instagram_username: a.vegaramirez
 linkedin_link: https://www.linkedin.com/in/totovr/
 google_plus_link: https://plus.google.com/u/0/+AntonioVegaAVR
 stackoverflow_link: https://stackoverflow.com/users/9060253/antonio-vega
-facebook_link:
 
 # Footer
 # footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
-footer_right: "&lt;/&gt; on <a href=\"https://www.linkedin.com/in/totovr\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
+footer_right: "&lt;/&gt; on <a href=\"https://github.com/totovr\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
 
 # Build settings
 markdown: kramdown
