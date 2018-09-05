@@ -3,3 +3,5 @@ Today I’m very happy because I could present one keynote in the 36th ANNUAL CO
 <img src="Assets/RSJ1.JPG" width="600">
 
 <img src="Assets/RSJ2.jpg" width="600">
+
+<img src="https://i.imgur.com/DMCHDqF.jpg" alt="Thumper">
