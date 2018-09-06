@@ -3,3 +3,7 @@ Today I’m very happy because I could present one keynote in the 36th ANNUAL CO
 <img src="https://totovr.github.io//assets/RSJ/RSJ1.JPG" width="600">
 
 <img src="https://totovr.github.io//assets/RSJ/RSJ2.jpg" width="600">
+
+<img src="https://totovr.github.io//assets/RSJ/RSJ3.jpg" width="600">
+
+<img src="https://totovr.github.io//assets/RSJ/RSJ4.jpg" width="600">
