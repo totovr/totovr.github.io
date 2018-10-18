@@ -1,56 +1,74 @@
-# Carte Noire
+# Particle Jekyll Theme
 
-A simple Jekyll theme for blogging. Not named after the coffee.
+![](./particle.jpg)
 
-![Homepage](http://i.imgur.com/xlmHArV.png)
+This is a simple and minimalist template for Jekyll designed for developers that want to show of their portfolio.
 
-### Article
-![Article](http://i.imgur.com/8rD8FfC.png)
+The Theme features:
 
-### Disqus Comments
-![Comments](http://i.imgur.com/TBZHQwF.png)
+- Gulp
+- SASS
+- Sweet Scroll
+- Particle.js
+- BrowserSync
+- Font Awesome and Devicon icons
+- Google Analytics
+- Info Customization
 
-### Posts grouped by year
-![All Posts](http://i.imgur.com/9bNs2Sc.png)
+## Basic Setup
 
-### JavaScript Search
-![Search](http://i.imgur.com/yQqMeSl.png)
+1. [Install Jekyll](http://jekyllrb.com)
+2. Fork the [Particle Theme](https://github.com/nrandecker/particle/fork)
+3. Clone the repo you just forked.
+4. Edit `_config.yml` to personalize your site.
 
-### Menu by mmenu
-![Menu](http://i.imgur.com/SClrNSH.png)
+## Site and User Settings
 
-## Contact
-If you wish to contact me regarding this theme please raise an issue on GitHub,
-tweet me [@_jacobtomlinson](http://www.twitter.com/_jacobtomlinson) or email me
-[jacob@jacobtomlinson.co.uk](mailto:jacob@jacobtomlinson.co.uk).
+You have to fill some informations on `_config.yml` to customize your site.
 
-## Contribution
-Pull requests are very welcome.
+```
+# Site settings
+description: A blog about lorem ipsum dolor sit amet
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://localhost:3000" # the base hostname & protocol for your site
 
-## Theme
-This jekyll theme has been created from scratch. Ideas and inspiration are taken
-from other places but the code is my own.
+# User settings
+username: Lorem Ipsum
+user_description: Anon Developer at Lorem Ipsum Dolor
+user_title: Anon Developer
+email: anon@anon.com
+twitter_username: lorem_ipsum
+github_username:  lorem_ipsum
+gplus_username:  lorem_ipsum
+```
 
-## Tools and Libraries
-The following tools and libraries are used in this theme
+**Don't forget to change your url before you deploy your site!**
 
-### JavaScript
- * [jQuery](http://jquery.com/)
- * [MMenu](http://mmenu.frebsite.nl/)
- * [HighlightJS](https://highlightjs.org/)
- * [Simple Jekyll Search](https://github.com/christian-fei/Simple-Jekyll-Search)
+## Color and Particle Customization
+- Color Customization
+  - Edit the sass variables
+- Particle Customization
+  - Edit the json data in particle function in app.js
+  - Refer to [Particle.js](https://github.com/VincentGarreau/particles.js/) for help
 
-### CSS
- * [Bootstrap](http://getbootstrap.com/)
- * [Font Awesome](http://fortawesome.github.io/Font-Awesome/)
+## Running the blog in local
 
-### Social
- * [AddThis](http://www.addthis.com/)
- * [Disqus](https://disqus.com/)
+In order to compile the assets and run Jekyll on local you need to follow those steps:
 
-### Other
- * [Real Favicon Generator](http://realfavicongenerator.net/)
- * [Google Analytics](http://www.google.com/analytics/)
+- Install [NodeJS](https://nodejs.org/)
+- Run `npm install`
+- Run `gulp`
+
+## Questions
+
+Having any issues file a [GitHub Issue](https://github.com/nrandecker/particle/issues/new).
 
 ## License
-The jekyll theme, HTML, CSS and JavaScript is licensed under GPLv3 (unless stated otherwise in the file).
+
+This theme is free and open source software, distributed under the The MIT License. So feel free to use this Jekyll theme anyway you want.
+
+## Credits
+
+This theme was partially designed with the inspiration from these fine folks
+- [Willian Justen](https://github.com/willianjusten/will-jekyll-template)
+- [Vincent Garreau](https://github.com/VincentGarreau/particles.js/)

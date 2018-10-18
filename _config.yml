@@ -1,41 +1,20 @@
 # Site settings
-title: "Portafolio"
-email: a.vegaramirez76@gmail.com
-description: "Personal blog."
-baseurl: ""
-url: "https://totovr.github.io"
-title_description: "Hello! I'm Antonio Vega Ramirez, current master student in Hiroshima University.
-Originally from Guanajuato, Antonio received a BA in Telecommunications and Electronics
-engineering from Guanajuato University.
+title: A blog about lorem ipsum dolor sit amet
+description: A blog about lorem ipsum dolor sit amet
+# baseurl: "/particle" # the subpath of your site, e.g. /blog
+# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
-I'm working under the supervision of Professor Kurita in the developing of new soft exoskeletons and human augmentation technology."
-title_image: "assets/avatar.JPG"
-google_analytics: "UA-20365477-4"
-# disqus_account: cartenoire
-github_repository: https://github.com/totovr/totovr.github.io
-addthis_id: ra-513c6fa83da6ec67
-post_limit: 5
+# User settings
+username: Anon Developer
+user_description: Bicycle rights irony actually neutra typewriter lyft. Man bun taxidermy put a bird on it, umami yr ramps pop-up ugh bushwick chia lo-fi. Occupy bitters pour-over snackwave you probably haven't heard of them small batch. Cornhole mustache man bun letterpress echo park VHS.
+user_title: Software Developer
+email: anon@anon.com
+twitter_username: lorem_ipsum
+github_username:  lorem_ipsum
+gplus_username:  lorem_ipsum
 
-# Social usernames/URLs
-twitter_username: SpainDice
-github_username:  totovr
-instagram_username: a.vegaramirez
-linkedin_link: https://www.linkedin.com/in/totovr/
-google_plus_link: https://plus.google.com/u/0/+AntonioVegaAVR
-stackoverflow_link: https://stackoverflow.com/users/9060253/antonio-vega
-researchgate_link: https://www.researchgate.net/profile/Antonio_Vega_Ramirez
-youtube_link: https://bit.ly/2KMP30c
+# Google-analytics
+google-analytics:
+  id: ""
 
-# Footer
-# footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
-footer_right: "&lt;/&gt; on <a href=\"https://github.com/totovr\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
-
-# Build settings
-markdown: kramdown
-
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-
-permalink: pretty
-exclude: [vendor]
+exclude: ['package.json', 'src' , 'node_modules']
