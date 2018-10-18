@@ -2,7 +2,7 @@
 title: Portafolio
 description: Antonio Vega personal portafolio
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
-# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+url: "https://totovr.github.io/" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 username: Antonio Vega
