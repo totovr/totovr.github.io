@@ -1,7 +1,7 @@
 # Site settings
 title: Portafolio
 description: Antonio Vega personal portafolio
-# baseurl: "/particle" # the subpath of your site, e.g. /blog
+baseurl: "/totovr.github.io" # the subpath of your site, e.g. /blog
 url: "https://totovr.github.io/" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
