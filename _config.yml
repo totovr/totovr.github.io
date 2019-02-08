@@ -7,11 +7,14 @@ url: "https://totovr.github.io/" #
 # User settings
 username: Antonio Vega
 user_description: Antonio Vega Ramirez, current research assistant in Hiroshima University. Originally from Guanajuato, Antonio received a MSE in Cybernetic Systems from Hiroshima University and a BA in Telecommunications and Electronics Engineering from Guanajuato University. I'm working under the supervision of Professor Kurita in the development of new soft exoskeletons and human augmentation technology.
-user_title: Hardware Developer
+user_title: Hardware and Software Developer
 email: a.vegaramirez76@gmail.com
 twitter_username: SpainDice
 github_username:  totovr
 gplus_username:  AntonioVegaAVR
+
+plugins:
+  - jekyll-seo-tag
 
 # Google-analytics
 google-analytics:
