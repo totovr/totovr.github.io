@@ -13,9 +13,6 @@ twitter_username: SpainDice
 github_username:  totovr
 gplus_username:  AntonioVegaAVR
 
-plugins:
-  - jekyll-seo-tag
-
 # Google-analytics
 google-analytics:
   id: ""
